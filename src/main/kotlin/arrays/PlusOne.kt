@@ -11,10 +11,10 @@ fun plusOne(digits: IntArray): IntArray {
         }
     }
 
-    return IntArray(digits.size + 1){ index ->
+    return IntArray(digits.size + 1) { index ->
         if(index == 0){
             1
-        } else{
+        } else {
             0
         }
     }
